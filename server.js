@@ -43,7 +43,6 @@ const readIndex = () => {
 const server = http.createServer((req, res) => {
     res.statusCode = 200
     res.setHeader('Content-Type', 'text/html')
-    fs.read
     res.end(readIndex())
 })
 
