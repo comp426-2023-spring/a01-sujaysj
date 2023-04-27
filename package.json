@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/comp426-2023-spring/a01-sujaysj/issues"
   },
-  "homepage": "https://github.com/comp426-2023-spring/a01-sujaysj#readme"
+  "homepage": "https://github.com/comp426-2023-spring/a01-sujaysj#readme",
+  "dependencies": {
+    "minimist": "^1.2.8"
+  }
 }
