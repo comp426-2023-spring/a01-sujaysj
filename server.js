@@ -44,7 +44,7 @@ const server = http.createServer((req, res) => {
     res.statusCode = 200
     res.setHeader('Content-Type', 'text/html')
     fs.read
-    res.end(readIndex)
+    res.end(readIndex())
 })
 
 
@@ -53,7 +53,7 @@ const server = http.createServer((req, res) => {
 // Put the exact message `Server listening on port ${port}` on the console log. 
 server.listen(port, () => {
     console.log(`Server listening on port ${port}`)
-  })
+})
 
 
 // That's it! You're all done!
