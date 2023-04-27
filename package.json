@@ -1,0 +1,19 @@
+{
+  "name": "426-webserver",
+  "version": "1.0.0",
+  "description": "426 webserver",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js --port=5555"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comp426-2023-spring/a01-sujaysj.git"
+  },
+  "author": "sujaysj",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/comp426-2023-spring/a01-sujaysj/issues"
+  },
+  "homepage": "https://github.com/comp426-2023-spring/a01-sujaysj#readme"
+}
